@@ -1,0 +1,31 @@
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: whitesmoke;
+    padding-top: 10px;
+    
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    background-color: #1f2937;
+    color: whitesmoke;
+    padding-top: 10px;
+
+}
+.list{
+
+    color: grey;
+    list-style: none;display: flex;
+    justify-content: right;
+    gap: 16px;
+    padding: 0px;
+    margin-top: 0px;;
+    
+   
+
+}
