@@ -1,3 +1,13 @@
+button{
+   background-color:#3882F6;
+   border: solid white;
+   color: white;
+   border-radius: 5px;
+
+}
+body{
+    margin: 0px;
+}
 
 .header{
     display: flex;
@@ -5,16 +15,29 @@
     background-color: #1f2937;
     color: whitesmoke;
     padding-top: 10px;
+    margin: 0px;
     
 
 }
-.footer{
+
+.myfooter{
+
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: #1f2937;
+    color: white;
     display: flex;
     justify-content: center;
-    align-items: bottom;
-    background-color: #1f2937;
+    align-items: center;
+    /* position:fixed;
+    padding-bottom: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: bottom; */
+    /* background-color: #1f2937;
     color: whitesmoke;
-    padding-top: 10px;
+    padding-top: 10px; */ 
 
 }
 .list{
@@ -25,7 +48,92 @@
     gap: 16px;
     padding: 0px;
     margin-top: 0px;;
-    
-   
+}
 
+.container{
+    /* border:solid indianred; */
+    height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.box1{
+    width: 100%;
+    /* border:solid indianred; */
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+   margin: 0px;
+}
+.box2{
+    border: solid red;
+    width: 100%;
+}
+
+.box3{
+    background-color: grey;
+    padding: 70px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+p{
+    width: 50%;
+}
+
+.para{
+    font-style: italic;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.box1-2{
+    padding: 100px 140px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box1-1{
+    margin-top: 50px;
+}
+
+ul {
+  
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ .carre{
+    border-color: aqua;
+}
+
+.box4{
+    border-radius: 15px;
+    margin: 60px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 60%;
+   
+}
+
+li{
+    border:solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
